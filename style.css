@@ -242,6 +242,10 @@ ul li:before {
 	letter-spacing: 1px;
 }
 
+.cell p{
+	paddint-left:10px;
+}
+
 .cell ul {
 	padding: 0;
 }
