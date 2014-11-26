@@ -18,13 +18,8 @@
 }
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
-<<<<<<< HEAD
 	background:url('/home/masha/aboutme/wooden-backgrounds/Wood-Background.jpg') repeat scroll;
 	background-size:  auto;
-=======
-	background:url('wooden-backgrounds/Light-Wood-Background.jpg') no-repeat scroll;
-	 background-size: 1800px auto;
->>>>>>> de1ea2aa005fe3029138c1d46f4e504e661e6b6c
 }
 .layout-wrapper{
 	
@@ -102,27 +97,10 @@ p{	margin: 0;
      margin:0 0 1px 28px;
 }
 
-<<<<<<< HEAD
 .projects{
 	display: block;
 	width: 500px;
 	margin: 20px auto;
-=======
-
-
-h2{
-	margin-top: 20px;
-	font-family: 'Lobster', cursive;
-	padding-bottom: 50px;
-	color:white;
-	padding-left: 70px;
-	padding-top: 7px;
-	text-align: left;
-	background-position: 20px 0;
-	background-image: url('ribbon.png');
-	background-repeat:  no-repeat;
-
->>>>>>> de1ea2aa005fe3029138c1d46f4e504e661e6b6c
 }
 
 ul{
@@ -256,13 +234,3 @@ footer .layout-wrapper{
 	color:tomato;
 }
 
-<<<<<<< HEAD
-=======
-.cell p{
-	padding-left:10px;
-}
-
-.cell ul {
-	padding: 0;
-}
->>>>>>> de1ea2aa005fe3029138c1d46f4e504e661e6b6c
