@@ -16,7 +16,7 @@
 }
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
-	background:url('/home/masha/aboutme/wooden-backgrounds/Wood-Background.jpg') repeat scroll;
+	background:url('wooden-backgrounds/Wood-Background.jpg') repeat scroll;
 	background-size:  auto;
 }
 .layout-wrapper{
