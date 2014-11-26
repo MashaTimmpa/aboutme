@@ -24,7 +24,7 @@ body{
 	width:70%;
 	margin: 0 auto;
 	padding: 0;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 }
 
 .clearfix:after{
@@ -71,19 +71,19 @@ p{	margin: 0;
 	/*background: url("ribbon.png") no-repeat;*/
 	font-family: Lobster;
 	color:#223C35;
-	
+	width: 100%;
 	text-align: center;
-	padding:20px;
-	margin: 30px auto;
+	padding:2%;
+	margin: 3% auto;
 }
 
 .ocupation:before,
 .ocupation:after{
-  display: inline-block;
+  	display: inline-block;
     height: 1px;
     content: " ";
     background-color: #223C35;
-    width:142px;
+    width:15%;
     vertical-align:middle;
 }
 
@@ -157,7 +157,7 @@ footer .layout-wrapper{
 	margin-bottom: 0;
 }
 .contact:not(:last-child){
-	margin-right: 150px;
+	margin-right: 20%;
 }
 
 .contact a{
