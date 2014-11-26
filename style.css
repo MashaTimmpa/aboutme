@@ -18,12 +18,12 @@
 }
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
-	background:url('/home/masha/Documents/cv/wooden-backgrounds/Light-Wood-Background.jpg') no-repeat scroll;
-	 background-size: 1800px auto;
+	background:url('/home/masha/aboutme/wooden-backgrounds/Wood-Background.jpg') repeat scroll;
+	background-size:  auto;
 }
 .layout-wrapper{
 	
-	width:960px;
+	width:70%;
 	margin: 0 auto;
 	padding: 0;
 	padding-left: 10px;
@@ -35,7 +35,11 @@ body{
     clear:both;
 }
 
-.index .layout-wrapper{
+ main .layout-wrapper{
+
+  min-height: 100%;
+  /* equal to footer height */
+  	margin-bottom: -100px; 
 	background: white;
 	margin-top: 50px;
 	min-height: 500px;
@@ -45,203 +49,188 @@ body{
 	padding-bottom: 50px;
 }
 
-footer .layout-wrapper{
-	background-color: #175B43;
-	padding-top: 50px;
-	padding-bottom: 50px;
-box-shadow: 0 25px 35px -10px #000;
+.about-me{
+text-align: center;	
 }
 
-
-.left-column,
-.right-column{
-	display:block;
+h1{
 	
-	/*border:1px dotted red;
-*/	min-height: 10px;
+	font-size: 3.5em;
+	color:#117F7F;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+
 }
 
-.left-column{
-	width:45%;
-	float:left;
-	padding-left: 20px;
+p{	margin: 0;
+	font-size: 1.4em;
 }
 
-.right-column{
-	width:52%;
-	float:right;
-	padding: 0;
-	margin: 0;
-	/*border:1px dotted red;*/
+.ocupation{
+	display: inline-block;
+	font-size: 2.2em;
+	/*background: url("ribbon.png") no-repeat;*/
+	font-family: Lobster;
+	color:#223C35;
 	
-}
-
-h1{	margin-top: 20px;
-	font-size: 60px;
-	font-weight: normal;
-	color:#2E745B;
 	text-align: center;
-	/*font-weight bold;*/
-	/*lettere-spacing: -2px;	
-*/
+	padding:20px;
+	margin: 30px auto;
 }
 
-
-p{
-	font-size: 1.1em;
+.ocupation:before,
+.ocupation:after{
+  display: inline-block;
+    height: 1px;
+    content: " ";
+    background-color: #223C35;
+    width:142px;
+    vertical-align:middle;
 }
 
-h3{
-	color:#4E8D77;
+.ocupation:before{
+    margin:0 28px 1px 0;
 }
 
-.about-me p,
-.about-me li{
-	font-size: 1.2em;
-	text-align: center;
+.ocupation:after{
+     margin:0 0 1px 28px;
 }
 
-
-
-h2{
-	margin-top: 20px;
-	font-family: 'Lobster', cursive;
-	padding-bottom: 50px;
-	color:white;
-	padding-left: 70px;
-	padding-top: 5px;
-	text-align: left;
-	background-position: 20px 0;
-	background-image: url('/home/masha/Documents/cv/ribbon.png');
-	background-repeat:  no-repeat;
-
+.projects{
+	display: block;
+	width: 500px;
+	margin: 20px auto;
 }
 
-.info-block{
-	display: inline-block;
-	padding-bottom: 1.5em;
-	padding-right: 20px;
-
-}
-
-.info-block h3,
-.info-block p,
-{
-	display: inline-block;
-	text-align: left;
-
-}
-
-
-
-.icon-mobile:before,
-.icon-mail-alt:before,
-.icon-skype:before
- {
-	font-family: "awesome";
-  	font-style: normal;
-  	font-weight: normal;
-  	speak: none;
-   	display: inline-block;
-  	text-decoration: inherit;
-  	width: 1em;
-  	
-    
-	color: #668C7E;
-}
-
- .icon-mobile:before { 
-	content: '\e80a';
-	font-size:30px;
-	padding-bottom: 5px;
-	vertical-align: middle;
-	margin-right: .3em;
-}
-
-.icon-mail-alt:before { 
-	content: '\e80b';
-	font-size:20px;
-	padding-right: 1.2em;
-}
-
-.icon-skype:before { content: '\e809';
-padding-right: 0.5em; }
-
-li{
+ul{
 	list-style: none;
-	padding-left: 0px;
 }
 
-ul li:before {
-	display: inline-block;
+.projects li:not(:last-of-type){
+	margin-bottom: 50px;
+}
+
+.projects img{
+	width:500px;
+}
+
+
+main:after{
 	content: "";
-	width: 10px;
-	height: 1px;
-	background-color: #4E8D77;
-	margin-bottom: 5px;
-	margin-right: 5px;
+	display: block;
+}
+
+
+footer, main:after{
+
+  height: 90px; 
+}
+
+
+
+
+footer .layout-wrapper{
+	
+	padding-top: 50px;
+	padding-bottom: 40px;
+	box-shadow: 0 25px 35px -10px #000;
+	background-color: #175B43;
+    background-image:
+        linear-gradient(45deg, transparent 50%, white 50%),
+        linear-gradient(-45deg, transparent 50%, white 50%);
+        /*
+
+        linear-gradient(135deg, transparent 50%, white 50%),
+        linear-gradient(-135deg, transparent 50%, white 50%)*/;
+	background-size: 10px 12px;
+	background-repeat: repeat-x;
+	background-position: 0 0, 0 0, 0 100%, 0 100%;
 }
 
 .contacts{
-	padding: 0;
-	margin: 0;
-	padding-left: 50px;
-	
-	float: left;
-	width:70%
+	width: 800px;
+	margin: 0px auto;
 }
 
-.contacts h3,
-.contacts p{
-	display: inline-block;
-	float: none;
-	
+.contact{
+	display: block;
+	float:left;
+	margin-bottom: 0;
+}
+.contact:not(:last-child){
+	margin-right: 150px;
 }
 
-.contacts p {
-	padding: 0;
-	margin: 0;
-	font-size: 30px;
-	padding-bottom: 15px;
-
+.contact a{
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
-.contacts h3{
-	color: #668C7E;
-	font-size: 37px;
-	margin-bottom: 20px;
-		
+.contact a:hover{
+	color: tomato
 }
 
-.information{
-	margin-top: 40px;
+.phone:before{
+	content: '\e80a';
+	font-family: "awesome";
+	color:#fff;
+ 	 display: inline-block;
+ 	margin-right: .2em;
+  	text-align: center;
+  	opacity: .8;
+   /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  font-size: 160%; 
+ 
 }
 
-.table{
-	display: table;
-	margin-right: 50px;
+.phone:hover:before {
+	opacity: 1;
+	color:tomato;
 }
 
-.row{
-	display: table-row;
-	margin-bottom: 10px;
-	
+.email:before{
+	content: '\e80b';
+	font-family: "awesome";
+	color:#fff;
+ 	 display: inline-block;
+ 	margin-right: .2em;
+  	text-align: center;
+  	opacity: .8;
+   /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  font-size: 160%; 
+}
+.email:hover:before {
+	opacity: 1;
+	color:tomato;
 }
 
-
-.cell{
-	display: table-cell;
-	text-align: left;
-
+.skype:before{
+	content: '\e809';
+	font-family: "awesome";
+	color:#fff;
+ 	 display: inline-block;
+ 	margin-right: .2em;
+  	text-align: center;
+  	opacity: .8;
+   /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  font-size: 160%; 
+}
+.skype:hover:before {
+	opacity: 1;
+	color:tomato;
 }
 
-.cell p,
-.cell li{
-	text-align: left;
-	font-size: 20px;
-	letter-spacing: 1px;
-}
-
-.cell ul {
-	padding: 0;
-}
