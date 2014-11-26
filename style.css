@@ -148,7 +148,7 @@ footer .layout-wrapper{
 }
 
 .contacts{
-	width: 80%;
+	width: 100%;
 	margin: 0px auto;
 }
 
@@ -158,7 +158,7 @@ footer .layout-wrapper{
 	margin-bottom: 0;
 }
 .contact:not(:last-child){
-	margin-right: 18%;
+	margin-right: 16%;
 }
 
 .contact a{
