@@ -156,9 +156,14 @@ footer .layout-wrapper{
 	display: block;
 	float:left;
 	margin-bottom: 0;
+		
 }
 .contact:not(:last-child){
 	margin-right: 16%;
+}
+
+.contact:first-child{
+	margin-left: 10%;
 }
 
 .contact a{
