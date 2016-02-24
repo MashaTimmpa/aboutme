@@ -89,40 +89,44 @@ p{	margin-top: 10px;
     vertical-align:middle;
 }
 
-.ocupation:before{
+.ocupation:before {
     margin:0 28px 1px 0;
 }
 
-.ocupation:after{
+.ocupation:after {
      margin:0 0 1px 28px;
 }
 
-.projects{
+.projects {
 	display: block;
 	width: 500px;
 	margin: 20px auto;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-.projects li:not(:last-of-type){
+.projects li:not(:last-of-type) {
 	margin-bottom: 50px;
 }
 
-.projects img{
+.projects img { 
 	width:500px;
 }
+ .projects a:hover img{
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(23, 91, 67, 0.8);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(23, 91, 67, 0.8);
+	box-shadow:         0px 0px 20px 0px rgba(23, 91, 67, 0.8);
+}
 
-
-main:after{
+main:after {
 	content: "";
 	display: block;
 }
 
 
-footer, main:after{
+footer, main:after {
 
   height: 90px; 
 }
