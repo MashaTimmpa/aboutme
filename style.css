@@ -19,9 +19,7 @@ body{
 	background:url('wooden-backgrounds/Wood-Background.jpg') repeat scroll;
 	background-size:  100%;
 }
-.layout-wrapper{
-	
-	width:70%;
+.container{	
 	margin: 0 auto;
 	padding: 0;
 	/*padding-left: 10px;*/
@@ -33,7 +31,7 @@ body{
     clear:both;
 }
 
- main .layout-wrapper{
+ main .container{
 
   min-height: 100%;
   /* equal to footer height */
@@ -67,7 +65,7 @@ p{	margin-top: 10px;
 	font-size: 1.4em;
 }
 
-.ocupation{
+h2{
 	display: inline-block;
 	font-size: 2.2em;
 	/*background: url("ribbon.png") no-repeat;*/
@@ -117,7 +115,7 @@ ul {
  .projects a:hover img{
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(23, 91, 67, 0.8);
 	-moz-box-shadow:    0px 0px 20px 0px rgba(23, 91, 67, 0.8);
-	box-shadow:         0px 0px 20px 0px rgba(23, 91, 67, 0.8);
+	box-shadow:         0px 0px 20px 0px rgba(23, 91, 67, 0.84159493);
 }
 
 main:after {
@@ -134,7 +132,7 @@ footer, main:after {
 
 
 
-footer .layout-wrapper{
+footer .container{
 	
 	padding-top: 50px;
 	padding-bottom: 40px;
@@ -246,5 +244,46 @@ a {
 .skype:hover:before {
 	opacity: 1;
 	color:tomato;
+}
+
+@media screen and (max-width: 767px) {
+	h2 {
+		font-size: 1.5em;
+	}
+
+ .contact {
+  	width: 100%;
+  	text-align: center;
+  	margin: 10px 0 0 0;
+  }
+
+
+  .contact:first-child {
+  	margin: 0;
+  }
+
+.ocupation:before,
+.ocupation:after{
+  	display: none;
+}
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+}
+
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
 }
 
